@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.1/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.1/css/foundation-float.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0.0, 0.0, 0.0, 0.1);
+        }
+
+        .logo {
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        .name {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+
+        .social-img {
+            margin-bottom: 20px;
+        }
+
+        .social-img ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        .social-img li {
+            margin-right: 10px;
+        }
+
+        .bio {
+            margin-bottom: 20px;
+        }
+
+        .portfolio-section {
+            margin-bottom: 40px;
+        }
+
+        .portfolio-section h5 {
+            margin-bottom: 10px;
+        }
+
+        .portfolio-section hr {
+            border: 1px solid #ddd;
+            margin: 15px 0;
+        }
+
+        .work img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .contact-section {
+            margin-bottom: 40px;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img class="logo" src="258.jpg" alt="Logo">
+        <h1 class="name">Tonpruek Kathamak</h1>
+        <div class="social-img">
+            <ul>
+                <li><a href="#" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="#" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                <li><a href="#" target="_blank"><i class="bi bi-github"></i></a></li>
+            </ul>
+        </div>
+        <p class="bio">Your bio goes here.</p>
+
+        <div class="portfolio-section">
+            <h5>Portfolio</h5>
+            <hr>
+            <div class="row">
+                <div class="small-6 columns">
+                    <div class="work">
+                        <img src="452.jpg" alt="Project 1">
+                    </div>
+                </div>
+                <!-- Add similar blocks for other projects -->
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h5>Contact Me</h5>
+            <hr>
+            <form action="">
+                <div class="row">
+                    <div class="medium-6 columns">
+                        <label for="name">Name:
+                            <input type="text" placeholder="Your Name">
+                        </label>
+                    </div>
+                    <div class="medium-6 columns">
+                        <label for="email">Email:
+                            <input type="text" placeholder="Your Email">
+                        </label>
+                    </div>
+                    <div class="medium-12 columns">
+                        <label for="message">Message
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </label>
+                        <button class="button">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="footer">
+            Tonpruek Kathamak &copy; <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.
+        </div>
+    </div>
+
+</body>
+</html>
